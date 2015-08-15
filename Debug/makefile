@@ -26,7 +26,7 @@ endif
 all: tp-operativos
 
 dependents:
-	-cd /home/utnso/workspace/commons/Debug && $(MAKE) clean all
+	-cd /home/utnso/workspace/commons/Debug && $(MAKE) all
 
 # Tool invocations
 tp-operativos: $(OBJS) $(USER_OBJS) /home/utnso/workspace/commons/Debug/libcommons.so
